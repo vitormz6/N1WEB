@@ -10,7 +10,8 @@ Uma aplicação web simples e eficiente para gerenciamento de usuários. Criada 
 
 ## 📸 Demonstração
 
-![App Screenshot](https://via.placeholder.com/800x400.png?text=App+Screenshot)
+![App Screenshot](![image](https://github.com/user-attachments/assets/7c360042-ebbd-4ca4-be3a-a77828fc011a)
+
 
 > *Adicione uma captura de tela da sua aplicação aqui para que os visitantes possam visualizar o projeto.*
 
