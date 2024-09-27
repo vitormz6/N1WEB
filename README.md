@@ -10,21 +10,10 @@ Uma aplicação web simples e eficiente para gerenciamento de usuários. Criada 
 
 ## 📸 Demonstração
 
-(![image](https://github.com/user-attachments/assets/7c360042-ebbd-4ca4-be3a-a77828fc011a)
+![image](https://github.com/user-attachments/assets/7c360042-ebbd-4ca4-be3a-a77828fc011a)
 
 
 > *Adicione uma captura de tela da sua aplicação aqui para que os visitantes possam visualizar o projeto.*
-
-## 📋 Índice
-
-- [Sobre](#sobre)
-- [Funcionalidades](#funcionalidades)
-- [Instalação](#instalação)
-- [Como Usar](#como-usar)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Tecnologias Usadas](#tecnologias-usadas)
-- [Contribuindo](#contribuindo)
-- [Licença](#licença)
 
 ## 📖 Sobre
 
@@ -48,3 +37,42 @@ Certifique-se de ter o **Python** (>= 3.9) instalado. Para verificar a versão, 
 
 ```bash
 python --version
+```
+
+### Passos de Instalação
+## Clone o Repositório
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
+
+## Crie um Ambiente Virtual
+python -m venv venv
+
+Ative o Ambiente Virtual
+
+Windows:
+venv\Scripts\activate
+
+Linux/Mac:
+source venv/bin/activate
+
+## Instale as Dependências
+pip install -r requirements.txt
+
+## Inicialize o Banco de Dados
+Abra um terminal Python no projeto e execute:
+
+from app import db
+db.create_all()
+
+## Rode a Aplicação
+python app.py
+
+## Acesse no Navegador
+Abra seu navegador e vá para:
+http://localhost:5000
+
+🚀 Como Usar
+Página Inicial: Acesse a página inicial para ver a mensagem de boas-vindas.
+Gerenciamento de Usuários: Vá para a aba "Manage Users" para adicionar, editar, bloquear ou desbloquear usuários.
+Login: Faça login na aba "Login" para acessar o sistema com credenciais existentes.
+
