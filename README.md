@@ -47,25 +47,11 @@ cd seu-repositorio
 ## Crie um Ambiente Virtual
 python -m venv venv
 
-Ative o Ambiente Virtual
-
-Windows:
-venv\Scripts\activate
-
-Linux/Mac:
-source venv/bin/activate
-
 ## Instale as Dependências
-pip install -r requirements.txt
-
-## Inicialize o Banco de Dados
-Abra um terminal Python no projeto e execute:
-
-from app import db
-db.create_all()
+pip install flask flask_sqlalchemy flask_wtf wtforms werkzeug
 
 ## Rode a Aplicação
-python app.py
+python app.py (ou opelo IDE)
 
 ## Acesse no Navegador
 Abra seu navegador e vá para:
