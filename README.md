@@ -44,11 +44,10 @@ python --version
 git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio
 
-## Crie um Ambiente Virtual
-python -m venv venv
+Vá até N1WEB
 
 ## Instale as Dependências
-pip install flask flask_sqlalchemy flask_wtf wtforms werkzeug
+pip install Flask Flask-SQLAlchemy Flask-WTF WTForms Werkzeug
 
 ## Rode a Aplicação
 python app.py (ou opelo IDE)
