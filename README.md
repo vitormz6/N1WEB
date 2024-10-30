@@ -26,6 +26,9 @@ Este é um projeto de exemplo de um sistema de gerenciamento de usuários, onde 
 - ✅ **Bloquear/Desbloquear Usuários**: Impeça o acesso de usuários indesejados ou permita que eles acessem novamente.
 - ✅ **Sistema de Login**: Controle o acesso ao sistema de forma segura.
 - ✅ **Interface Amigável**: Uma interface web simples e funcional.
+- ✅ **Recuperação de Senha**: Solicitação de redefinição de senha via email.
+- ✅ **Recuperação de Senha**: Envio de link seguro para redefinição de senha.
+- ✅ **Recuperação de Senha**: Redefinição de senha com validação de token.
 
 ## 🛠️ Instalação
 
