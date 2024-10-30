@@ -74,9 +74,9 @@ Abra seu navegador e vá para:
 http://localhost:5000
 
 # 🚀 Como Usar
-Página Inicial: Acesse a página inicial para ver a mensagem de boas-vindas.
-Gerenciamento de Usuários: Vá para a aba "Manage Users" para adicionar, editar, bloquear ou desbloquear usuários.
-Login: Faça login na aba "Login" para acessar o sistema com credenciais existentes.
+- Página Inicial: Acesse a página inicial para ver a mensagem de boas-vindas.
+- Gerenciamento de Usuários: Vá para a aba "Manage Users" para adicionar, editar, bloquear ou desbloquear usuários.
+- Login: Faça login na aba "Login" para acessar o sistema com credenciais existentes.
 
 # 🚀 Usando a Funcionalidade "Esqueci Minha Senha"
 ## 1. Solicitar a Redefinição de Senha
@@ -111,3 +111,5 @@ Login: Faça login na aba "Login" para acessar o sistema com credenciais existen
   Você verá uma mensagem confirmando que sua senha foi atualizada com sucesso.
   Agora, você pode retornar à página de login e entrar com sua nova senha.
 
+# Contribuição
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests para melhorar o projeto.
