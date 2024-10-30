@@ -49,9 +49,21 @@ Vá até N2WEB
 ```
 pip install Flask==2.3.2 Flask-Mail==0.9.1 Flask-WTF==1.1.1 Flask-SQLAlchemy==3.0.5 itsdangerous==2.1.2 email-validator==1.3.1
 ```
+_**Nota:** _As versões especificadas são exemplos. Você pode ajustar as versões conforme a compatibilidade do seu projeto ou remover os números de versão para instalar as versões mais recentes.__
+
+## Atualizar as Configurações do Flask-Mail no app.py
+```# Configurações do Flask-Mail
+app.config['MAIL_SERVER'] = 'smtp.gmail.com'  # Servidor SMTP do Gmail
+app.config['MAIL_PORT'] = 587  # Porta para TLS
+app.config['MAIL_USE_TLS'] = True
+app.config['MAIL_USE_SSL'] = False
+app.config['MAIL_USERNAME'] = "seuemail@gmail.com"  # Substitua pelo seu email
+app.config['MAIL_PASSWORD'] = "suasenhagerada"      # Substitua pela sua senha de app
+app.config['MAIL_DEFAULT_SENDER'] = ('N2 Programação WEB', app.config['MAIL_USERNAME'])
+```
 
 ## Rode a Aplicação
-python app.py (ou opelo IDE)
+```python app.py``` (ou opelo IDE)
 
 ## Acesse no Navegador
 Abra seu navegador e vá para:
