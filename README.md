@@ -1,4 +1,4 @@
-# N1 Programação WEB
+# N2 Programação WEB
 
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Flask](https://img.shields.io/badge/Flask-v2.0-blue)
@@ -11,9 +11,6 @@ Uma aplicação web simples e eficiente para gerenciamento de usuários. Criada 
 ## 📸 Demonstração
 
 ![image](https://github.com/user-attachments/assets/7c360042-ebbd-4ca4-be3a-a77828fc011a)
-
-
-> *Adicione uma captura de tela da sua aplicação aqui para que os visitantes possam visualizar o projeto.*
 
 ## 📖 Sobre
 
@@ -44,13 +41,14 @@ python --version
 
 ### Passos de Instalação
 ## Clone o Repositório
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+```git clone https://github.com/seu-usuario/seu-repositorio.git``` e depois ```cd seu-repositorio```
 
-Vá até N1WEB
+Vá até N2WEB
 
 ## Instale as Dependências
-pip install Flask Flask-SQLAlchemy Flask-WTF WTForms Werkzeug
+```
+pip install Flask==2.3.2 Flask-Mail==0.9.1 Flask-WTF==1.1.1 Flask-SQLAlchemy==3.0.5 itsdangerous==2.1.2 email-validator==1.3.1
+```
 
 ## Rode a Aplicação
 python app.py (ou opelo IDE)
