@@ -62,15 +62,52 @@ app.config['MAIL_PASSWORD'] = "suasenhagerada"      # Substitua pela sua senha d
 app.config['MAIL_DEFAULT_SENDER'] = ('N2 Programação WEB', app.config['MAIL_USERNAME'])
 ```
 
-## Rode a Aplicação
+### Importante:
+Substitua "seuemail@gmail.com" pelo seu endereço de email real do Gmail.
+Substitua "suasenhagerada" pela senha de app de 16 caracteres que você gerou.
+
+## Execute a Aplicação
 ```python app.py``` (ou opelo IDE)
 
 ## Acesse no Navegador
 Abra seu navegador e vá para:
 http://localhost:5000
 
-🚀 Como Usar
+# 🚀 Como Usar
 Página Inicial: Acesse a página inicial para ver a mensagem de boas-vindas.
 Gerenciamento de Usuários: Vá para a aba "Manage Users" para adicionar, editar, bloquear ou desbloquear usuários.
 Login: Faça login na aba "Login" para acessar o sistema com credenciais existentes.
+
+# 🚀 Usando a Funcionalidade "Esqueci Minha Senha"
+## 1. Solicitar a Redefinição de Senha
+**Acesse a Página de Login**
+  Abra o navegador e vá para http://localhost:5000/login.
+  
+**Clique em "Esqueci minha senha"**
+  Na página de login, abaixo do formulário, clique no link "Esqueci minha senha".
+  
+**Insira seu Email**
+  Você será redirecionado para a página "Esqueci Minha Senha".
+  Insira o endereço de email que você usou para se registrar e clique em "Enviar".
+
+## 2. Receber o Email de Redefinição
+**Verifique sua Caixa de Entrada**
+  Após solicitar a redefinição, verifique a caixa de entrada do email que você inseriu.
+
+**Email de Redefinição**
+  Você receberá um email com o assunto "Redefinir Sua Senha".
+  O corpo do email conterá um link para redefinir sua senha.
+  
+## 3. Redefinir a Senha
+**Clique no Link de Redefinição**
+  Abra o email e clique no link fornecido.
+  O link redirecionará você para a página de "Redefinir Senha" no aplicativo.
+  
+**Inserir Nova Senha**
+  Na página de redefinição, insira sua nova senha e confirme a nova senha.
+  Clique em "Redefinir Senha" para confirmar.
+  
+**Confirmação**
+  Você verá uma mensagem confirmando que sua senha foi atualizada com sucesso.
+  Agora, você pode retornar à página de login e entrar com sua nova senha.
 
